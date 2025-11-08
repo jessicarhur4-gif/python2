@@ -1,5 +1,0 @@
-keys = input().split()
-values = list(map(int, input().split()))
-data = dict(zip(keys, values))
-data.pop('alpha')
-print(data)
